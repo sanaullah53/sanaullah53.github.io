@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MD Sanaullah | Portfolio</title>
+  <meta name="description" content="MD Sanaullah - B.Tech CSE student and web developer from Darbhanga, Bihar">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="progress"></div>
+
+  <header class="navbar">
+    <a href="#home" class="logo"><span class="logo-badge">MS</span><span class="logo-text">Sanaullah<b>.</b></span></a>
+    <nav id="menu">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="themeBtn" aria-label="Change theme">🌙</button>
+      <button id="menuBtn" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="hero">
+    <div class="hero-photo">
+      <div class="photo-ring">
+        <!-- Apni photo ka naam yahan likhein: photo.jpg -->
+        <img src="photo.jpeg" alt="MD Sanaullah"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="photo-fallback">MS</div>
+      </div>
+    </div>
+    <div class="hero-text">
+      <p class="hello">👋 Hello, I'm</p>
+      <h1>MD Sanaullah</h1>
+      <h2>I am a <span id="typing"></span><span class="cursor">|</span></h2>
+      <p class="location">📍 Darbhanga, Bihar</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn">Contact Me</a>
+        <a href="resume.pdf" download="MD_Sanaullah_Resume.pdf" class="btn btn-outline">⬇ Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2 class="title">About Me</h2>
+    <div class="glass">
+      <p>
+        I am MD Sanaullah from Darbhanga, Bihar. I am currently pursuing B.Tech in
+        Computer Science &amp; Engineering and I enjoy learning programming and
+        building websites. I also have practical experience in the telecom sector
+        as a Field Engineer.
+      </p>
+      <div class="hobbies">
+        <span>📚 Book Reading</span>
+        <span>🏏 Cricket</span>
+        <span>🕌 Namaz &amp; Quran</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2 class="title">Education</h2>
+    <div class="timeline">
+      <div class="item">
+        <h3>B.Tech in Computer Science &amp; Engineering</h3>
+        <p>Millennium Institute of Technology, Bhopal</p>
+        <span class="tag">Pursuing</span>
+      </div>
+      <div class="item">
+        <h3>Diploma in Computer Science &amp; Engineering</h3>
+        <p>Maulana Azad National Urdu University, Darbhanga Campus</p>
+        <span class="tag done">Completed</span>
+      </div>
+      <div class="item">
+        <h3>Matriculation (10th)</h3>
+        <p>Completed in 2021 &nbsp;|&nbsp; 75.8%</p>
+        <span class="tag done">Completed</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2 class="title">Skills</h2>
+    <div class="skills">
+      <span>🌐 HTML</span>
+      <span>🎨 CSS</span>
+      <span>⚡ JavaScript</span>
+      <span>🐍 Python</span>
+      <span>🐘 PHP</span>
+      <span>☕ Java</span>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <h2 class="title">Experience</h2>
+    <div class="timeline">
+      <div class="item">
+        <h3>Field Engineer</h3>
+        <p>Telecom Sector</p>
+        <span class="tag">6 Months</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2 class="title">Contact</h2>
+    <div class="contact-grid">
+      <a class="contact-card" href="mailto:youremail@gmail.com"><b>📧 Email</b><span>msanaullah74649@gmail.com</span></a>
+      <a class="contact-card" href="tel:+91XXXXXXXXXX"><b>📱 Phone</b><span>+91 8051583383</span></a>
+      <a class="contact-card" href="https://www.linkedin.com/in/md-sanaullah-404610303/" target="_blank"><b>💼 LinkedIn</b><span>your-id</span></a>
+      <a class="contact-card" href="https://github.com/sanaullah53" target="_blank"><b>💻 GitHub</b><span>your-username</span></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 MD Sanaullah. Made with ❤️ in Bihar</p>
+  </footer>
+
+  <button id="topBtn" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
